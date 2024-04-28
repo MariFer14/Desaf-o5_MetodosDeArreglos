@@ -1,0 +1,8 @@
+.realizada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
