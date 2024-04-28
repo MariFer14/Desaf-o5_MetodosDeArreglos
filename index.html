@@ -5,23 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/iconoImg.png">
 </head>
 <body>
-    <main>
-        <h1>Mi Lista de Tareas</h1>
-        <hr>
-        <form id="form-tarea">
-        <h3>Nueva Tarea</h3>
-        <input type="text" id="nueva-tarea" placeholder="Ingrese su tarea a realizar" required>
-        <button type="submit">Agregar Tarea</button>
-        </form>
-
-        <div class="contadores">
-            <h4>Total de Tareas: <span id="total-tareas">0</span></h4>
-            <h4>Tareas Realizadas: <span id="tareas-realizadas">0</span></h4>
+    <h1>Mi Lista Personal de Tareas</h1>
+    <p>Ordena tus tareas como prefieras. Puesdes eliminarlas a través del botón que poseen al lado, o marcarlas como completadas haciendo click sobre ellas.</p>
+    <hr>
+    <main class="container">
+        <div class="card1">
+            <form id="form-tarea">
+                <h3>Nueva Tarea</h3>
+                <input type="text" id="nueva-tarea" placeholder="Ingrese su tarea a realizar" required>
+                <button type="submit" class="boton">Agregar Tarea</button>
+            </form>
+        
+            <div class="contadores">
+                <h4>Total de Tareas: <span id="total-tareas">0</span></h4>
+                <h4>Tareas Realizadas: <span id="tareas-realizadas">0</span></h4>
+            </div>
         </div>
-
-        <div class="tareas-agregadas">
+        
+        <div class="card2">
             <h3>Lista de Tareas</h3>
             <ul id="lista-tarea">
 

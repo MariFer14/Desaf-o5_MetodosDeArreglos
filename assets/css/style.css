@@ -1,6 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgba(180,180,180,0.5),rgba(180,180,180,0.5)), url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #00215E;
+    text-shadow:2px 0 0 #98c1ff;
+}
+
+hr{
+    border: 1px solid #2C4E80;
+}
+
+p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FC4100;
+    text-shadow: 1px 0 0 #dddddd;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card1{
+    background-color: #f9d187;
+    border: 1px solid black;
+    padding: 80px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 2px solid #FC4100;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card1 h3{
+    font-size: 25px;
+    color: #00215E;
+    text-shadow: 1px 0 0 #2C4E80;
+}
+
+#nueva-tarea{
+    padding: 10px;
+    border: 1px solid #00215E;
+    border-radius: 5px;
+}
+
+.boton{
+    padding: 10px 15px;
+    border: 1px solid #00215E;
+    border-radius: 5px;
+    background-color: #FC4100;
+    color: #ffffff;
+    transition: all .3s;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #00215E;
+}
+
+.contadores{
+    margin-top: 50px;
+}
+
+.contadores h4{
+    font-size: 18px;
+    color: #FC4100;
+}
+
+.card2{
+    background-color: #f9d187;
+    border: 1px solid black;
+    padding: 80px;
+    border-radius: 10px;
+    border: 2px solid #00215E;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card2 h3{
+    font-size: 25px;
+    color: #FC4100;
+    text-shadow: -1px 0 0 #646464;
+}
+
 .realizada {
     text-decoration: line-through;
-    color: gray;
+    color: #FC4100;
+}
+
+ul li{
+    color: #00215E;
+    list-style-type: square;
+    font-size: 17px;
+    line-height: 50px;
 }
 
 ul li:hover{
@@ -8,5 +109,16 @@ ul li:hover{
 }
 
 .delete{
-    background-color: aquamarine;
+    padding: 5px 10px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00215E;
+    color: #ffffff;
+    transition: all .3s;
+}
+
+.delete:hover{
+    cursor: pointer;
+    background-color: #FC4100;
 }
